@@ -53,6 +53,7 @@
             this.btn_salir.TabIndex = 29;
             this.btn_salir.Text = "Salir";
             this.btn_salir.UseVisualStyleBackColor = true;
+            this.btn_salir.Click += new System.EventHandler(this.btn_salir_Click);
             // 
             // Limpiar
             // 
@@ -62,6 +63,7 @@
             this.Limpiar.TabIndex = 28;
             this.Limpiar.Text = "Limpiar";
             this.Limpiar.UseVisualStyleBackColor = true;
+            this.Limpiar.Click += new System.EventHandler(this.Limpiar_Click);
             // 
             // btn_ejecutar
             // 
